@@ -65,14 +65,56 @@ li, a {
   background-color: #4CAF50;
 }
 
-.chatContainer{
-  background-color: yellow;
-  width: 80vw;
+.chatSelectName{
+  display: flex;
+  align-items: stretch;
+  margin: 5vh auto;
+  max-width: 40vw;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.btn-sub2 {
+  margin-top: 10px;
+  height: 40px;
+}
+
+.btn-sub2:hover {
+  background-color: #4CAF50;
+}
+
+.chatContainer {
+  background-color: #e6e6e64d;
+  margin: 5vh auto;
+  overflow-y: scroll;
+  max-width: 40vw;
+  max-height: 60vh;
+}
+
+.textarea-style{
+  resize: none;
+  max-width: inherit;
+  height: 4rem;
+}
+
+.chatContainer::-webkit-scrollbar {
+  width: 16px;
+}
+
+.chatContainer::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+.chatContainer::-webkit-scrollbar-thumb {
+  background-color: #d4aa70;
+  border-radius: 100px;
 }
 
 .chat-messages{
   background-color: aquamarine;
-  max-width: 20%;
+  max-width: 30%;
   margin: 15px auto;
   border-radius: 10px;
 }

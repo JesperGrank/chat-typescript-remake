@@ -47,7 +47,7 @@ export default function HomePage() {
     if (error) {
       return (<div>{error}</div>)
     } else if (messages) {
-      return (<div>
+      return (<div className="chatContainer">
         {messages && messages.map((singleMessage, index) => {
           return (
             <div className="chat-messages" key={index}>
@@ -62,16 +62,13 @@ export default function HomePage() {
     }
   }
   return (
-
     <div>
-      <div className='selectName'>
-      <input className="form-control" type="text" placeholder="Message" value={chatMessage} onChange={(e) => setChatMessage(e.target.value)} />
-        <button className="btn-sub" onClick={(e) => createMessage(chatMessage)}>Send message</button>
-      </div>
-      
+
       {output()}
-
-
+      <div className='chatSelectName'>
+      <textarea className="textarea-style" placeholder="Type a message..." value={chatMessage} onChange={(e) => setChatMessage(e.target.value)} />
+        <button className="btn-sub2" onClick={(e) => createMessage(chatMessage)}>Send message</button>
+      </div>
     </div>
   )
 }
