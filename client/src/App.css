@@ -47,17 +47,13 @@ li, a {
   display: flex;
   align-items: stretch;
   margin: auto;
+  margin-top: 30vh;
   width: 15vw;
   padding: 1em;
   background-color: rgb(255, 166, 0);
   justify-content: space-evenly;
   flex-direction: column;
   align-content: space-between;
-}
-
-.form-control{
-  border-style: dotted;
-  border: 0;
 }
 
 .btn-sub {
