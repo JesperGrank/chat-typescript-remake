@@ -1,0 +1,20 @@
+{
+  "name": "my-todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildFrontend": "cd client && npm run build",
+    "buildBackend": "cd server && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "*"
+  ],
+  "devDependencies": {
+    "@types/cors": "^2.8.12"
+  }
+}
