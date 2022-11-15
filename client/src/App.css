@@ -50,19 +50,24 @@ li, a {
   margin-top: 30vh;
   width: 15vw;
   padding: 1em;
-  background-color: rgb(255, 166, 0);
+  background-color:  #d4aa70;
   justify-content: space-evenly;
   flex-direction: column;
   align-content: space-between;
 }
 
+.inputSelectName{
+  height: 40px;
+}
+
 .btn-sub {
   flex: 1;
+  height: 200px;
   margin-top: 10px;
 }
 
 .btn-sub:hover {
-  background-color: #4CAF50;
+  background-color: #1ad421;
 }
 
 .chatSelectName{
@@ -81,7 +86,7 @@ li, a {
 }
 
 .btn-sub2:hover {
-  background-color: #4CAF50;
+  background-color: #1ad421;
 }
 
 .chatContainer {
@@ -113,7 +118,7 @@ li, a {
 }
 
 .chat-messages{
-  background-color: aquamarine;
+  background-color: #d4aa70;
   max-width: 30%;
   margin: 15px auto;
   border-radius: 10px;

@@ -22,10 +22,11 @@ export default function HomePage() {
   return (
     <div>
 
+
       <div className="selectName">
       <label>{error ? error : "Select a username to enter chat"} </label>
-      <input type="text" placeholder="Username" value={userName} onChange={(e) => setUserName(e.target.value)}></input>
-      <button className="btn-sub" onClick={(e) => createUser(userName)}>Enter chat</button>
+      <input className="inputSelectName" type="text" placeholder="Username" value={userName} onChange={(e) => setUserName(e.target.value)}></input>
+      <button className="btn-sub2" onClick={(e) => createUser(userName)}>Enter chat</button>
       </div>
         
     </div>
