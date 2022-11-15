@@ -94,7 +94,6 @@ li, a {
 }
 
 .chatContainer {
-  background-color: #e6e6e64d;
   margin: 5vh auto;
   overflow-y: scroll;
   max-width: 40vw;
